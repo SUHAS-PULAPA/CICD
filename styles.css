@@ -1,0 +1,18 @@
+.hero-section {
+  background-image: url('images/devops-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1,
+.hero-section p {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
