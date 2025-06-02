@@ -1,42 +1,68 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>HTML Login Form</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevOps Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="main">
-        <h1>GeeksforGeeks</h1>
-        <h3>Enter your login credentials</h3>
 
-        <form action="">
-            <label for="first">
-                Username:
-            </label>
-            <input type="text" id="first" name="first" 
-                placeholder="Enter your Username" required>
-
-            <label for="password">
-                Password:
-            </label>
-            <input type="password" id="password" name="password" 
-                placeholder="Enter your Password" required>
-
-            <div class="wrap">
-                <button type="submit">
-                    Submit
-                </button>
-            </div>
-        </form>
-        
-        <p>Not registered?
-            <a href="#" style="text-decoration: none;">
-                Create an account
-            </a>
-        </p>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">DevOps Project</a>
     </div>
-</body>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero-section text-white text-center">
+    <div class="container py-5">
+      <h1 class="display-4">CI/CD Pipeline with Docker & Kubernetes</h1>
+      <p class="lead">A Full DevOps Implementation Using GitHub Actions, Containers, and Cloud</p>
+    </div>
+  </section>
+
+  <!-- Overview Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Project Overview</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>This project demonstrates building, testing, and deploying a Flask app using Docker and Kubernetes, with automated workflows triggered by GitHub Actions. It includes infrastructure as code, container orchestration, and performance monitoring.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/pipeline.png" class="img-fluid rounded shadow" alt="Pipeline Overview">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Tools & Technologies</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">GitHub & GitHub Actions</li>
+            <li class="list-group-item">Docker & Docker Hub</li>
+            <li class="list-group-item">Kubernetes (Minikube / GKE)</li>
+            <li class="list-group-item">Prometheus & Grafana</li>
+            <li class="list-group-item">Terraform (Infrastructure as Code)</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/tools.png" class="img-fluid" alt="DevOps Tools">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Your Name | DevOps Portfolio</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
